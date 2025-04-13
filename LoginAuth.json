@@ -1,0 +1,546 @@
+{
+  "cookies": [
+    {
+      "name": "controlSum",
+      "value": "1744454961523526-6979518099715984316, klg",
+      "domain": "autofill.yandex.ru",
+      "path": "/suggest",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_csrf",
+      "value": "be120916930f1a05e02822cd922340355cf8c4d69117b518b5bc2661be07a268a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hzuTfPSt6a3hkRZaIM_D37nOqOx7Epzu%22%3B%7D",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "visitorInfo",
+      "value": "%7B%22email%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22source%22%3A%22%22%2C%22cpc_counter%22%3A0%2C%22social_counter%22%3A0%2C%22partners_counter%22%3A0%2C%22source_yandex_counter%22%3A0%2C%22source_google_counter%22%3A0%2C%22visit_counter%22%3A1%2C%22register_date%22%3A%22%22%2C%22first_pay_date%22%3A%22%22%2C%22first_buy_tariff%22%3A%22%22%2C%22country%22%3A%22%22%2C%22first_visit_site%22%3A%22vigbo.com%22%2C%22last_visit_datetime%22%3A%222025-04-12+10%3A49%3A19%22%7D",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1747046959.646761,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "i",
+      "value": "qHvXsCOSt264uF64WdlIeG4oFByEbj4aPhHsMtLCygS4RoO9vIN1SVuQEFdDJ1/DY1bnQpn09ofQqYOXWIg9NE8umhc=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1779014959.676071,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "7214048211744454959",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1779014959.937174,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yashr",
+      "value": "1920759131744454959",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1775990959.676143,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tmr_lvid",
+      "value": "f0bb1233903ab2cf4f5f2f364f1ff486",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1773226161,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tmr_lvidTS",
+      "value": "1744454959762",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1773226161,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.278541476.1744454960",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1752230960,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1744454960244047581",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1775990959,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_d",
+      "value": "1744454960",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1775990959,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1744454959892.518379664317796241",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1752230961,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1717232979.1744454960",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744541361,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_4820623_7",
+      "value": "1",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744455019,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-4820623-7",
+      "value": "1",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744455019,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "remixlang",
+      "value": "114",
+      "domain": ".vk.com",
+      "path": "/",
+      "expires": 1776165066.933461,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "remixstlid",
+      "value": "9078191952630942127_eqpAz8R033amvrIZK0uzk4tWEp7yAtzd9m43lumRS0H",
+      "domain": ".vk.com",
+      "path": "/",
+      "expires": 1775990959.933492,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yabs-sid",
+      "value": "2522501001744454959",
+      "domain": "mc.yandex.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "7214048211744454959",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1779014959.937205,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ymex",
+      "value": "2059814959.yrts.1744454959",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1775990959,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ru_yandex_autofill",
+      "value": "long_time_no_see",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1744454964,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_visorc",
+      "value": "w",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744456761,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "WhiteCallback_visitorId",
+      "value": "19794066594",
+      "domain": ".whitesaas.com",
+      "path": "/",
+      "expires": 1779014960.101173,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "domain_sid",
+      "value": "e0nJj7-i8itriph-3jP5w%3A1744454960158",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1745059760.158309,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteCallback_visitorId",
+      "value": "19794066594",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1744456760,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteCallback_visit",
+      "value": "31226785023",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteSaas_uniqueLead",
+      "value": "no",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1744458560,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteCallback_openedPages",
+      "value": "IehEK",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1775990960,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gdpr",
+      "value": "0",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1744454960899016904",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1775990960,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_d",
+      "value": "1744454961",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1775990960,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_visorc",
+      "value": "b",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1744456761,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744526960,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1744526960,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "WHMCSRLEj02v8O02S",
+      "value": "92470hshlh6464fe3v58nc6b50",
+      "domain": "clients.vigbo.com",
+      "path": "/",
+      "expires": 1747133361.245735,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteCallback_timeAll",
+      "value": "1",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1744541361,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WhiteCallback_timePage",
+      "value": "1",
+      "domain": "vigbo.com",
+      "path": "/",
+      "expires": 1744541361,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.353065584.1744454960",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1779014961.501241,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUnwy65BCp60VU97iBbgd6tuSfBaI0ES_MxexvXDjio0LZu-73nH8sPjEb6p",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1779014961.57571,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bh",
+      "value": "EkAiQ2hyb21pdW0iO3Y9IjEzNCIsIk5vdDpBLUJyYW5kIjt2PSIyNCIsIkhlYWRsZXNzQ2hyb21lIjt2PSIxMzQiGgN4ODYiDTEzNC4wLjY5OTguMzUqAj8wOgdXaW5kb3dzQgYxNS4wLjBKAjY0UloiQ2hyb21pdW0iO3Y9IjEzNC4wLjY5OTguMzUiLCJOb3Q6QS1CcmFuZCI7dj0iMjQuMC4wLjAiLCJIZWFkbGVzc0Nocm9tZSI7dj0iMTM0LjAuNjk5OC4zNSJgsYrpvwY=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1779014961,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_0Z9N7XCYQP",
+      "value": "GS1.1.1744454959.1.1.1744454962.0.0.0",
+      "domain": ".vigbo.com",
+      "path": "/",
+      "expires": 1744462162.773971,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://vigbo.com",
+      "localStorage": [
+        {
+          "name": "firebase:host:envybox-1e1bf.firebaseio.com",
+          "value": "\"s-usc1a-nss-2003.firebaseio.com\""
+        },
+        {
+          "name": "rb_sync_id",
+          "value": "{\"time\":1744454960158,\"fpid\":\"e0nJj7-i8itriph-3jP5w\",\"metricsTime\":1744454960159}"
+        },
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        },
+        {
+          "name": "_ym_wv2rf:69331741:0",
+          "value": "1"
+        },
+        {
+          "name": "ws_visit_count",
+          "value": "1"
+        },
+        {
+          "name": "tmr_trgfpid",
+          "value": "{\"fpid\":null,\"ts\":1744454960151}"
+        },
+        {
+          "name": "ws_page_show_count",
+          "value": "1"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1744454959850},\"expires\":1752230959850}}"
+        },
+        {
+          "name": "tmr_lvid",
+          "value": "f0bb1233903ab2cf4f5f2f364f1ff486"
+        },
+        {
+          "name": "_ym_synced",
+          "value": "{}"
+        },
+        {
+          "name": "_ym69331741_lsid",
+          "value": "149519409288"
+        },
+        {
+          "name": "_ym_wv2rf:31639778:0",
+          "value": "1"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1744454959888"
+        },
+        {
+          "name": "tmr_lvidTS",
+          "value": "1744454959762"
+        },
+        {
+          "name": "_ym69331741:0_reqNum",
+          "value": "4"
+        },
+        {
+          "name": "_ym31639778:0_reqNum",
+          "value": "10"
+        },
+        {
+          "name": "tmr_reqNum",
+          "value": "7"
+        },
+        {
+          "name": "_ym31639778_lsid",
+          "value": "222415721040"
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1744454960244047581\""
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "ws_visit_id",
+          "value": "31226785023"
+        }
+      ]
+    },
+    {
+      "origin": "https://autofill.yandex.ru",
+      "localStorage": [
+        {
+          "name": "_ym_synced",
+          "value": "{}"
+        },
+        {
+          "name": "_ym69331741_lsid",
+          "value": "231662781728"
+        },
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        },
+        {
+          "name": "_ym_wv2rf:69331741:0",
+          "value": "1"
+        },
+        {
+          "name": "_ym_wasSynced",
+          "value": "{\"time\":1744454960335,\"params\":{\"sbp\":{\"a\":\"qGwN8wMUAaG8CGk4g4GlecCwptXMkoHvxQgiaVyXcX/EXxHBWpbJ9msz4Y3jjrss\",\"b\":\"Kl0gDzQA9JrVQeC4oTg4YoN4HMa2P7yovv0KC8fA7rG6DlHp5Vm3IEAmLfhPwGD8\"},\"eu\":0,\"hittoken\":\"1744454960_e2df70740d5976810ceff5f7a914e6ebc501f107e1a5620811012119bdc82421\",\"wstoken\":\"10635.WltmX7xr_tqK-VGaldyiTvljitof-QPTFwAAYinTpI4,.K1bh2VXJOmk1CuQcDrkbbn5qG7U,\"},\"bkParams\":{}}"
+        },
+        {
+          "name": "_ym69331741:0_reqNum",
+          "value": "2"
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1744454960899016904\""
+        },
+        {
+          "name": "_ym3_lsid",
+          "value": "1731078902454"
+        },
+        {
+          "name": "_ym3:0_reqNum",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}
