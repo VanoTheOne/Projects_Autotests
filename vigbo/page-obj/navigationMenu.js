@@ -53,6 +53,10 @@ class NavigationMenu extends Base {
     return this.page.locator('.user_menu-logout .user_menu-el');
   }
 
+  async openGelleries() {
+    await this.gelleriesButton.click();
+  }
+
   async openPersonalSettings() {
     await this.openMenuButton.click();
     await this.profileSettingsButton.click();

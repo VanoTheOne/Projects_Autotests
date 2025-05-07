@@ -25,10 +25,10 @@ class Loginer extends Base {
     await page.goto('https://vigbo.com/');
     await this.sighInButton.click();
     await this.emailInputField.click();
-    const login = 'anniekoust@mail.ru';
+    const login = 'van0the0ne@gmail.com';
     await this.emailInputField.fill(login);
     await this.passwordInputField.click();
-    const password = 'sosbYLXfOj';
+    const password = 'vmlbg7W8qn';
     await this.passwordInputField.fill(password);
     await this.loginButton.click();
   }
