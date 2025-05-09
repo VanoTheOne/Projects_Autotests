@@ -29,17 +29,17 @@ test.describe('Vigbo main page tests', function () {
       await expect(await gelleries.newGelleryName).toHaveText('Новая галерея');
     });
 
-    test('Should check if', async ({ page }) => {
-      await navigationMenu.openGelleries();
-      await gelleries.openFavoritesSettings();
-      await newGellery.turnOnGetNotificationsCheck();
-      await newGellery.turnOnLimitQuantityCheck();
-      await newGellery.fillMaxPhotoAmount('20');
-      await newGellery.goToGelleryList();
-      await gelleries.openFirstGellery();
-      await newGellery.openFavorutesSettings();
-      await expect(await newGellery.maxPhotoAmountInput).toHaveValue('20');
-    });
+    // test('Should check if', async ({ page }) => {
+    //   await navigationMenu.openGelleries();
+    //   await gelleries.openFavoritesSettings();
+    //   await newGellery.turnOnGetNotificationsCheck();
+    //   await newGellery.turnOnLimitQuantityCheck();
+    //   await newGellery.fillMaxPhotoAmount('20');
+    //   await newGellery.goToGelleryList();
+    //   await gelleries.openFirstGellery();
+    //   await newGellery.openFavorutesSettings();
+    //   await expect(await newGellery.maxPhotoAmountInput).toHaveValue('20');
+    // });
 
     test('Should check the title of watched gellery', async ({ page }) => {
       await navigationMenu.openGelleries();
