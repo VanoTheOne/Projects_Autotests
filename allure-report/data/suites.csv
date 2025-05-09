@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","10686","Should check the title of watched gellery","chromium","Fri May 09 11:21:09 MSK 2025","passed","Fri May 09 11:21:20 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
-"","8136","Should check if new gellery is deleted","chromium","Fri May 09 11:21:20 MSK 2025","passed","Fri May 09 11:21:28 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
-"","15867","Should check if new gellery is created with given name","chromium","Fri May 09 11:20:53 MSK 2025","passed","Fri May 09 11:21:09 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
