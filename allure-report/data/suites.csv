@@ -1,5 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","9454","Should check if","chromium","Thu May 08 23:14:28 MSK 2025","failed","Thu May 08 23:14:37 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
-"","10557","Should check the title of watched gellery","chromium","Fri May 09 10:45:35 MSK 2025","passed","Fri May 09 10:45:45 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
-"","19999","Should check if new gellery is created with given name","chromium","Fri May 09 10:45:15 MSK 2025","passed","Fri May 09 10:45:35 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
-"","8165","Should check if new gellery is deleted","chromium","Fri May 09 10:45:45 MSK 2025","passed","Fri May 09 10:45:53 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
+"","10686","Should check the title of watched gellery","chromium","Fri May 09 11:21:09 MSK 2025","passed","Fri May 09 11:21:20 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
+"","8136","Should check if new gellery is deleted","chromium","Fri May 09 11:21:20 MSK 2025","passed","Fri May 09 11:21:28 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
+"","15867","Should check if new gellery is created with given name","chromium","Fri May 09 11:20:53 MSK 2025","passed","Fri May 09 11:21:09 MSK 2025","Vigbo main page tests > Gelleries positive tests","gelleries.spec.js","",""
