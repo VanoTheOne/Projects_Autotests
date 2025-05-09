@@ -71,12 +71,11 @@ class NewGellery extends Base {
     await this.getNotificationsCheck.click();
   }
 
-  async turnOnLimitQuantityCheck() {
+  async turnOnLimitOfPhotosCheck() {
     await this.limitQuantityCheck.click();
   }
 
   async fillMaxPhotoAmount(photoAmount) {
-    await this.maxPhotoAmountInput.waitFor({ state: 'visible' });
     await this.maxPhotoAmountInput.fill(photoAmount);
   }
 

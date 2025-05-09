@@ -10,7 +10,7 @@ class NavigationMenu extends Base {
   }
 
   get gelleriesButton() {
-    return this.page.locator('.navigation_href.gallery');
+    return this.page.locator('.navigation_href.gallery').first();
   }
 
   get domainButton() {

@@ -55,7 +55,7 @@ class Gelleries extends Base {
   }
 
   get firsGelleryInList() {
-    return this.iframeLocator.locator('//div[contains(@class,"gallery-preview_prewiew-card__pp-uw")]//a[@class="gallery-preview_cover-tiles__r+Xlv"]');
+    return this.iframeLocator.locator('//div[contains(@class,"gallery-preview_prewiew-card__pp-uw")]').first();
   }
 
   get shareGelleryButton() {
@@ -95,16 +95,13 @@ class Gelleries extends Base {
   async watchGellery() {
     await this.shareGelleryButton.click();
 
-    const [newPage] = await Promise.all([
-      this.page.context().waitForEvent('page'),
-      this.watchGelleryButton.click(),          
-    ]);
+    const [newPage] = await Promise.all([this.page.context().waitForEvent('page'), this.watchGelleryButton.click()]);
 
     await newPage.waitForLoadState();
     await this.watchGelleryButton.click();
 
     return newPage;
   }
-} 
+}
 
 module.exports = Gelleries;
