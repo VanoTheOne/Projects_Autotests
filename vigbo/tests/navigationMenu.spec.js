@@ -16,11 +16,6 @@ test.describe('Vigbo main page tests', function () {
   // test.describe('Main page positive tests', function () {
   //   test('Should check if navigation buttons leads to the required links', async ({ page }) => {
   //     await navigationMenu.websitesButton.click();
-  //     await expect(await page).toHaveTitle('Выбор тарифа');
-  //     await navigationMenu.supportButton.click();
-  //     await expect(await page).toHaveTitle('Тикеты');
-  //     await page.waitForTimeout(2000);
-  //     await navigationMenu.ideasButton.click();
   //     await expect(await navigationMenu.yourIdeasHeader).toContainText('Ваши идеи');
   //   });
   // });

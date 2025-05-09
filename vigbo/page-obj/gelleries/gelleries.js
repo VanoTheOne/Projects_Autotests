@@ -70,6 +70,10 @@ class Gelleries extends Base {
     return this.iframeLocator.locator('//div[contains(@class, "preview-info_footer__RNizf")]//a[contains(@href, "favorites")]').first();
   }
 
+  get reviewsButton() {
+    return this.iframeLocator.locator('//div[contains(@class, "preview-info_footer__RNizf")]//a[contains(@href, "reviews")]');
+  }
+
   async createGellery(gelleryName) {
     await this.createGelletyButton.click();
     await this.gelleryNameField.fill(gelleryName);
@@ -80,6 +84,10 @@ class Gelleries extends Base {
 
   async openFavoritesSettings() {
     await this.listsWithFavoritesButton.click();
+  }
+
+  async openReviews() {
+    await this.reviewsButton.click();
   }
 
   async openFirstGellery() {

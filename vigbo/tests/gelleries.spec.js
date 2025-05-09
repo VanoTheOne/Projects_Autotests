@@ -32,9 +32,22 @@ test.describe('Vigbo main page tests', function () {
     test('Should check if limit of photos for selection is 10 by default', async ({ page }) => {
       await navigationMenu.openGelleries();
       await gelleries.openFavoritesSettings();
-      await newGellery.turnOnGetNotificationsCheck();
       await newGellery.turnOnLimitOfPhotosCheck();
       await expect(await newGellery.maxPhotoAmountInput).toHaveValue('10');
+    });
+
+    test('Should check if message about notifications turned on appears', async ({ page }) => {
+      await navigationMenu.openGelleries();
+      await gelleries.openReviews();
+      await newGellery.turnOnSendingNotifications();
+      await expect(await newGellery.appearingPopup).toContainText('включена');
+    });
+
+    test('Should check if message about notifications turned off appears', async ({ page }) => {
+      await navigationMenu.openGelleries();
+      await gelleries.openReviews();
+      await newGellery.turnOnSendingNotifications();
+      await expect(await newGellery.appearingPopup).toContainText('выключена');
     });
 
     test('Should check the title of watched gellery', async ({ page }) => {

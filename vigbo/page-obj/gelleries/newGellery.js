@@ -82,6 +82,20 @@ class NewGellery extends Base {
   async openFavorutesSettings() {
     await this.favoritesButton.click();
   }
+
+  //reviews
+
+  get sendNotificationsCheck() {
+    return this.iframeLocator.locator('//div[@class="switch_inner__OFwt-"]');
+  }
+
+  get appearingPopup() {
+    return this.iframeLocator.locator('//div[@role="dialog"]//p');
+  }
+
+  async turnOnSendingNotifications() {
+    await this.sendNotificationsCheck.click();
+  }
 }
 
 module.exports = NewGellery;
