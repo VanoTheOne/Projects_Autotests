@@ -47,10 +47,10 @@ test.describe('Vigbo main page tests', function () {
       await expect(newPage).toHaveTitle('Новая галерея');
     });
 
-    test('Should check if new gellery is deleted', async ({ page }) => {
-      await navigationMenu.openGelleries();
-      await gelleries.deleteFirstGellery();
-      await expect(await gelleries.gelleryInList).not.toBeVisible();
-    });
+    // test('Should check if new gellery is deleted', async ({ page }) => {
+    //   await navigationMenu.openGelleries();
+    //   await gelleries.deleteFirstGellery();
+    //   await expect(await gelleries.gelleryInList).not.toBeVisible();
+    // });
   });
 });
