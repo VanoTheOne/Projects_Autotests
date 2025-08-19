@@ -12,17 +12,17 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   timeout: 30000,
-  // globalSetup: './vigbo/global/globalSetup.js',
+  globalSetup: './vigbo/global/globalSetup.js',
   // globalTeardown: './global/globalTeardown.js',
   testDir: './vigbo/tests',
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['list'],
@@ -34,9 +34,9 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',D
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    headless: false,
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
-    headless: true,
     video: 'retain-on-failure',
   },
 
@@ -45,8 +45,8 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-      storageState: './LoginAuth.json'
-    }, 
+      storageState: './LoginAuth.json',
+      }, 
     },
 
     // {

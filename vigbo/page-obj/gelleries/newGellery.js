@@ -11,7 +11,7 @@ class NewGellery extends Base {
   }
 
   get photoInput() {
-    return this.iframeLocator.locator('//div[@class="upload-placeholder_root__kCKai"]//input[@type="file"]');
+    return this.iframeLocator.locator('//div[@role="button"]//input');
   }
 
   get uploadedPhoto() {

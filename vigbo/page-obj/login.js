@@ -1,7 +1,6 @@
 const Base = require('../page-obj/base');
-const { login, password } = require('./env');
 
-class Loginer extends Base {
+class Login extends Base {
   constructor(page) {
     super(page);
   }
@@ -38,8 +37,7 @@ class Loginer extends Base {
     return this.page.locator('//div[@class="lp-gallery_modal-form-group-wrap"]//div[contains(text(), "Введите пароль")]');
   }
 
-  async logInUser(page) {
-    await page.goto('https://vigbo.com/');
+  async logInUser(login, password) {
     await this.startButton.click();
     await this.loginButton.click();
     await this.emailInputField.click();
@@ -50,4 +48,4 @@ class Loginer extends Base {
   }
 }
 
-module.exports = Loginer;
+module.exports = Login;

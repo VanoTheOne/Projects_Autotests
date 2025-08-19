@@ -110,6 +110,10 @@ class Gelleries extends Base {
 
     return newPage;
   }
+
+  //sales
+
+  
 }
 
 module.exports = Gelleries;
