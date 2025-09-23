@@ -1,6 +1,6 @@
-const Base = require('../page-obj/base');
+const Base = require('./base');
 
-class Login extends Base {
+class LoginPage extends Base {
   constructor(page) {
     super(page);
   }
@@ -18,11 +18,15 @@ class Login extends Base {
   }
 
   get loginButton() {
-    return this.page.locator('//p[@class="lp-gallery_modal-descritpion"]/a');
+    return this.page.locator('//div[@class="mobile-menu-block__bottom"]/a[@class="btn mod--wide js--btn-style js--button-open-registration"]');
   }
 
   get startButton() {
-    return this.page.locator('//div[@class="first-slider__content"]//a').first();
+    return this.page.locator('//div[@class="mobile-menu-block__bottom"]/a[@class="menu-main__login-text link-style--menu"]');
+  }
+
+  get menuButton() {
+    return this.page.locator('//div[@class="header-main"]//div[@class="menu-main__right"]');
   }
 
   get failLoginMessage() {
@@ -38,8 +42,8 @@ class Login extends Base {
   }
 
   async logInUser(login, password) {
+    await this.menuButton.click();
     await this.startButton.click();
-    await this.loginButton.click();
     await this.emailInputField.click();
     await this.emailInputField.fill(login);
     await this.passwordInputField.click();
@@ -48,4 +52,4 @@ class Login extends Base {
   }
 }
 
-module.exports = Login;
+module.exports = LoginPage;

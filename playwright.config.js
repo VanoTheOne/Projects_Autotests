@@ -12,7 +12,7 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   timeout: 30000,
-  globalSetup: './vigbo/global/globalSetup.js',
+  // globalSetup: './vigbo/global/globalSetup.js',
   // globalTeardown: './global/globalTeardown.js',
   testDir: './vigbo/tests',
   /* Run tests in files in parallel */
@@ -45,7 +45,7 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-      storageState: './LoginAuth.json',
+      // storageState: './LoginAuth.json',
       }, 
     },
 

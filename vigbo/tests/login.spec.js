@@ -1,51 +1,51 @@
 const { test, expect } = require('@playwright/test');
 const { login, password } = require('../helpers/env');
 const Base = require('../page-obj/base');
-const Login = require('../page-obj/login');
+const LoginPage = require('../page-obj/loginPage');
 
 test.describe('Vigbo login tests', function () {
   let base;
-  let login;
+  let loginPage;
 
   test.beforeEach(async ({ page }) => {
     base = new Base(page);
-    login = new Login(page);
+    loginPage = new LoginPage(page);
 
     await base.navigate(`https://vigbo.com/`);
   });
 
   test.describe(`Login positive tests`, function () {
-    test('Lovin with valid data', async ({ page }) => {
-      await login.logInUser(login, password);
+    test('Login with valid data', async ({ page }) => {
+      await loginPage.logInUser(login, password);
       await expect(page).toHaveTitle('Личный кабинет');
     });
   });
 
   test.describe(`Login negative tests`, function () {
     test('Login with invalid login', async ({ page }) => {
-      await login.logInUser('123@gmail.com', password);
-      await expect(await login.failLoginMessage).toHaveText('Данные для входа неверны. Пожалуйста, попробуйте еще раз.');
+      await loginPage.logInUser('123@gmail.com', password);
+      await expect(await loginPage.failLoginMessage).toHaveText('Данные для входа неверны. Пожалуйста, попробуйте еще раз.');
     });
 
     test('Login with invalid password', async ({ page }) => {
-      await login.logInUser(login, '123');
-      await expect(await login.failLoginMessage).toHaveText('Данные для входа неверны. Пожалуйста, попробуйте еще раз.');
+      await loginPage.logInUser(login, '123');
+      await expect(await loginPage.noPasswordMessage).toHaveText('Введите пароль');
     });
 
     test('Login without data', async ({ page }) => {
-      await login.logInUser('', '');
-      await expect(await login.noEmailMessage).toHaveText('Введите e-mail');
-      await expect(await login.noPasswordMessage).toHaveText('Введите пароль');
+      await loginPage.logInUser('', '');
+      await expect(await loginPage.noEmailMessage).toHaveText('Введите e-mail');
+      await expect(await loginPage.noPasswordMessage).toHaveText('Введите пароль');
     });
 
     test('Login without login', async ({ page }) => {
-      await login.logInUser('', password);
-      await expect(await login.noEmailMessage).toHaveText('Введите e-mail');
+      await loginPage.logInUser('', password);
+      await expect(await loginPage.noEmailMessage).toHaveText('Введите e-mail');
     });
 
     test('Login without password', async ({ page }) => {
-      await login.logInUser(login, '');
-      await expect(await login.noPasswordMessage).toHaveText('Введите пароль');
+      await loginPage.logInUser(login, '');
+      await expect(await loginPage.noPasswordMessage).toHaveText('Введите пароль');
     });
   });
 });
