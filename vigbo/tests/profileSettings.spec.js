@@ -16,12 +16,12 @@ test.describe('Vigbo profile settings tests', function () {
     await base.navigate('https://clients.vigbo.com/area/main.php');
   });
 
-  // test.describe('Vigbo profile settings positive tests', function () {
-  //   test('Should check is SaveChanges button active', async ({ page }) => {
-  //     await navigationMenu.openPersonalSettings();
-  //     await expect(await personalSettings.savePersonalDataButton).toHaveAttribute('class', 'btn btn-success btn-big btn--indent-big state-disable');
-  //     await personalSettings.changePasswordButton.click();
-  //     await expect(await personalSettings.savePasswordButton).toHaveAttribute('class', 'btn btn-success btn-big btn--indent-big state-disable');
-  //   });
-  // });
+  test.describe('Vigbo profile settings positive tests', function () {
+    test('Should check is SaveChanges button active', async ({ page }) => {
+      await navigationMenu.openPersonalSettings();
+      await expect(await personalSettings.savePersonalDataButton).toHaveAttribute('class', 'btn btn-success btn-big btn--indent-big state-disable');
+      await personalSettings.changePasswordButton.click();
+      await expect(await personalSettings.savePasswordButton).toHaveAttribute('class', 'btn btn-success btn-big btn--indent-big state-disable');
+    });
+  });
 });

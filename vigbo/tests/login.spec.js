@@ -14,14 +14,14 @@ test.describe('Vigbo login tests', function () {
     await base.navigate(`https://vigbo.com/`);
   });
 
-  test.describe(`Login positive tests`, function () {
+  test.describe(`Login page positive tests`, function () {
     test('Login with valid data', async ({ page }) => {
       await loginPage.logInUser(login, password);
       await expect(page).toHaveTitle('Личный кабинет');
     });
   });
 
-  test.describe(`Login negative tests`, function () {
+  test.describe(`Login page negative tests`, function () {
     test('Login with invalid login', async ({ page }) => {
       await loginPage.logInUser('123@gmail.com', password);
       await expect(await loginPage.failLoginMessage).toHaveText('Данные для входа неверны. Пожалуйста, попробуйте еще раз.');

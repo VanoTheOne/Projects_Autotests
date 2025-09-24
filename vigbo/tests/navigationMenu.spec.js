@@ -13,10 +13,10 @@ test.describe('Vigbo main page tests', function () {
     await base.navigate('https://clients.vigbo.com/area/main.php');
   });
 
-  // test.describe('Main page positive tests', function () {
-  //   test('Should check if navigation buttons leads to the required links', async ({ page }) => {
-  //     await navigationMenu.websitesButton.click();
-  //     await expect(await navigationMenu.yourIdeasHeader).toContainText('Ваши идеи');
-  //   });
-  // });
+  test.describe('Main page positive tests', function () {
+    test('Should check if navigation buttons leads to the required links', async ({ page }) => {
+      await navigationMenu.websitesButton.click();
+      await expect(await navigationMenu.yourIdeasHeader).toContainText('Ваши идеи');
+    });
+  });
 });

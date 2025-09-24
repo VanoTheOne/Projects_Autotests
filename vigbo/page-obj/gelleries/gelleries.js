@@ -35,7 +35,7 @@ class Gelleries extends Base {
   }
 
   get deleteFirstGelleryButton() {
-    return this.iframeLocator.locator('//div[@class="gallery-preview_prewiew-card__pp-uw gallery-preview_list-card__B0PRv"]//button[@class="settings_button__xUPrG"]').first();
+    return this.iframeLocator.locator('//div[@class="preview-info_actions-list__o85n+"]/button[@class="settings_button__xUPrG"]');
   }
 
   get settingsDotsButton() {
@@ -97,6 +97,7 @@ class Gelleries extends Base {
   async deleteFirstGellery() {
     await this.settingsDotsButton.hover();
     await this.popupMenuDeleteButton.click();
+    // await this.deleteFirstGelleryButton.click();
     await this.confirmDeleteButton.click();
   }
 
@@ -112,8 +113,6 @@ class Gelleries extends Base {
   }
 
   //sales
-
-  
 }
 
 module.exports = Gelleries;

@@ -34,7 +34,7 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',D
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    headless: false,
+    headless: true,
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -45,7 +45,7 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-      // storageState: './LoginAuth.json',
+      storageState: './LoginAuth.json',
       }, 
     },
 
