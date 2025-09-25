@@ -1,453 +1,179 @@
 {
   "cookies": [
     {
-      "name": "_GRECAPTCHA",
-      "value": "09AG7bzvG0yrMFsOTnaRAh3O2WeFOKUReyYLkoD-faGd4kH2unqBBjXfEMP3yuGzuSWT6Z57yys0-ByDzv0mU9oro",
-      "domain": "www.google.com",
-      "path": "/recaptcha",
-      "expires": 1774196889.613704,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "controlSum",
-      "value": "1758644889620246-5082959142620922390, sas",
-      "domain": "autofill.yandex.ru",
-      "path": "/suggest",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__ddg9_",
-      "value": "37.214.24.35",
-      "domain": ".vigbo.com",
+      "name": "session-id",
+      "value": "147-0804571-3761952",
+      "domain": ".imdb.com",
       "path": "/",
-      "expires": 1758646091.052716,
+      "expires": 1793382950.678094,
       "httpOnly": false,
-      "secure": false,
+      "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "__ddg1_",
-      "value": "w4l4Qwz5JGbTHbpnCohS",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1790180888.235106,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_csrf",
-      "value": "5f20f3493ac9a74c7879a9099934221d393d6464801b2d9b56f507c781e10c32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f3U7SXs8pr-XUZE3JWJsAIGPW6cHTS2e%22%3B%7D",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "visitorInfo",
-      "value": "%7B%22email%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22source%22%3A%22%22%2C%22cpc_counter%22%3A0%2C%22social_counter%22%3A0%2C%22partners_counter%22%3A0%2C%22source_yandex_counter%22%3A0%2C%22source_google_counter%22%3A0%2C%22visit_counter%22%3A1%2C%22register_date%22%3A%22%22%2C%22first_pay_date%22%3A%22%22%2C%22first_buy_tariff%22%3A%22%22%2C%22country%22%3A%22%22%2C%22first_visit_site%22%3A%22vigbo.com%22%2C%22last_visit_datetime%22%3A%222025-09-23+16%3A28%3A07%22%7D",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": 1761236888.356815,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ym_uid",
-      "value": "1758644889446153662",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1790180888,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_d",
-      "value": "1758644889",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1790180888,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "yabs-sid",
-      "value": "978170851758644887",
-      "domain": "mc.yandex.ru",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "i",
-      "value": "G1qUI+P+YTLwb0Mv/5ijgfd+FDc8n+vMWZ8gWfLm0o21oCppT701ea9RTL4myZ5aSuXeR2d3p8pYpulFc4h3lZrbGUU=",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1793204888.593239,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "yandexuid",
-      "value": "4521593141758644887",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1793204888.59327,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "yuidss",
-      "value": "4521593141758644887",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1793204888.593293,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "ymex",
-      "value": "2074004887.yrts.1758644887#2074004887.yrtsi.1758644887",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1790180887,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_isad",
-      "value": "2",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1758716888,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_visorc",
-      "value": "w",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1758646690,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "WhiteCallback_visitorId",
-      "value": "21345234096",
-      "domain": ".whitesaas.com",
-      "path": "/",
-      "expires": 1793204888.765624,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "yashr",
-      "value": "2221797531758644887",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1790180888.821834,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "WhiteCallback_visitorId",
-      "value": "21345234096",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": 1758646688,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "WhiteCallback_visit",
-      "value": "33462045465",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "WhiteSaas_uniqueLead",
-      "value": "no",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": 1758648488,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "WhiteCallback_openedPages",
-      "value": "HsdOn",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": 1790180888,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "gdpr",
+      "name": "ad-oo",
       "value": "0",
-      "domain": ".yandex.ru",
+      "domain": ".imdb.com",
+      "path": "/",
+      "expires": 1758952546,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UID",
+      "value": "1EEe2679038d9a3a82da8ee1758822946",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1792518946.684906,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XID",
+      "value": "1EEe2679038d9a3a82da8ee1758822946",
+      "domain": ".scorecardresearch.com",
+      "path": "/",
+      "expires": 1792518946.685012,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://imdb.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "ci",
+      "value": "eyJpc0dkcHIiOmZhbHNlfQ",
+      "domain": ".imdb.com",
       "path": "/",
       "expires": -1,
       "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_uid",
-      "value": "1758644889765500947",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1790180889,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_d",
-      "value": "1758644889",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1790180889,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_ym_visorc",
-      "value": "b",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1758646690,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "WhiteCallback_timeAll",
-      "value": "1",
-      "domain": "vigbo.com",
-      "path": "/",
-      "expires": 1758731289,
-      "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "WhiteCallback_timePage",
-      "value": "1",
-      "domain": "vigbo.com",
+      "name": "ad-id",
+      "value": "A91QazASM0GkluCtPXC5HhE",
+      "domain": ".amazon-adsystem.com",
       "path": "/",
-      "expires": 1758731289,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "registrationGoal",
-      "value": "16",
-      "domain": ".vigbo.com",
-      "path": "/",
-      "expires": 1758731290,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "WHMCSRLEj02v8O02S",
-      "value": "15a3ocqtnnbh8civo2mppsaps3",
-      "domain": "clients.vigbo.com",
-      "path": "/",
-      "expires": 1761323290.275343,
+      "expires": 1775066146.96516,
       "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ym_isad",
-      "value": "2",
-      "domain": ".yandex.ru",
-      "path": "/",
-      "expires": 1758716890,
-      "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
-      "name": "bh",
-      "value": "EkIiQ2hyb21pdW0iO3Y9IjEzNCIsICJOb3Q6QS1CcmFuZCI7dj0iMjQiLCAiSGVhZGxlc3NDaHJvbWUiO3Y9IjEzNCIaA3g4NiINMTM0LjAuNjk5OC4zNSoCPzA6CSJXaW5kb3dzIkIGMTkuMC4wSgI2NFJaIkNocm9taXVtIjt2PSIxMzQuMC42OTk4LjM1IiwiTm90OkEtQnJhbmQiO3Y9IjI0LjAuMC4wIiwiSGVhZGxlc3NDaHJvbWUiO3Y9IjEzNC4wLjY5OTguMzUiYJmVy8YGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnOvNhwg=",
-      "domain": ".yandex.ru",
+      "name": "ad-privacy",
+      "value": "0",
+      "domain": ".amazon-adsystem.com",
       "path": "/",
-      "expires": 1793204889,
-      "httpOnly": false,
+      "expires": 1793382946.965258,
+      "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
-      "name": "__ddg10_",
-      "value": "1758644890",
-      "domain": ".vigbo.com",
+      "name": "ubid-main",
+      "value": "134-7673451-3930945",
+      "domain": ".imdb.com",
       "path": "/",
-      "expires": 1758646091.052693,
+      "expires": 1790358948.975999,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csm-hit",
+      "value": "tb:7XVTE59QYCSC280B25ED+s-1JYA4A4W8N1QH1Y0Y9A8|1758822948206&t:1758822948206&adb:adblk_no",
+      "domain": "www.imdb.com",
+      "path": "/",
+      "expires": 1789062948,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "__ddg8_",
-      "value": "f6t0IzfziZnicNwN",
-      "domain": ".vigbo.com",
+      "name": "x-main",
+      "value": "\"AfoCeuCNUL4eJDwez@7HQxqawoMgR74zYRqOyBkNI0QZUzn@cue2EIwYCKl4uXdw\"",
+      "domain": ".imdb.com",
       "path": "/",
-      "expires": 1758646091.052602,
+      "expires": 1790358948.976069,
       "httpOnly": false,
-      "secure": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "at-main",
+      "value": "Atza|IwEBINdBG7p03jzW1w0VXNwqpxEJ96BXdNMcKKRCtYJZu70g7qPzFO65NRuwoCQFZ0wRCiH-_io8e3vq_xovM9uk_jEDS9-JN91-t5-PCsmQ9QfLbGatDtdvwSlEvNoXzWcQ_givdY_yIcQvrAivtO5vRxZzHKLZXcH9KkhUsaiLA76XnmfJ6siQsuJxUtli_gPd5KQdJ1KbEcCz5xq2fVc492B1i6kxa18eUylIp_v_D2RXaw",
+      "domain": ".imdb.com",
+      "path": "/",
+      "expires": 1790358948.976087,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sess-at-main",
+      "value": "\"SjFYLnyO1IvSyuaZbAdWt959wpOWCbtvtL1JfF+RHwg=\"",
+      "domain": ".imdb.com",
+      "path": "/",
+      "expires": 1790358948.976114,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-id-time",
+      "value": "2082787201l",
+      "domain": ".imdb.com",
+      "path": "/",
+      "expires": 1793382950.678218,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-token",
+      "value": "UXgEu1AkRtlNQIQn/e6vI4BgBTviM0FzGQgBH4r0t7gsXKM72zZcVk/lxkgChFNMMYvvoRD02qyBE6CLmCVl4Njp/YL8LxYxDtqFkIORKlMBRNflKeM2A6BZTdq0DJus9Pg6abpgixNhcz1wJw98J94zOXQuR1Oc9vCTQAKzUtvKumeYnrmcFRv3kuFsrnIIfXn6o67lUWuhn/XzzoBobz2xAyG0ASs/HvydwsPdEAmKBbyFnuVcwbiA+vPGJrtSLVlpqi04dkIpXCZhGi4Juu1F7jzLYygWsKq000NqDycobgEidLjwlAQtVhbUmvgJ73OyFdKtRnuOMPo46ySUYgVCGozipJjD5dm5Cok59xxt+6DNdRYJvw",
+      "domain": ".imdb.com",
+      "path": "/",
+      "expires": 1793382950.678293,
+      "httpOnly": true,
+      "secure": true,
       "sameSite": "Lax"
     }
   ],
   "origins": [
     {
-      "origin": "https://vigbo.com",
+      "origin": "https://www.imdb.com",
       "localStorage": [
         {
-          "name": "_ym_synced",
-          "value": "{}"
+          "name": "csa-ctoken-7XVTE59QYCSC280B25ED",
+          "value": "1758826546185"
         },
         {
-          "name": "_ym69331741_lsid",
-          "value": "4577299711"
+          "name": "csa-tabbed-browsing",
+          "value": "{\"lastActive\":{\"visible\":false,\"pid\":\"ou2ujq-vbv8dv-9l65g9-btbe29\",\"tid\":\"gkie0c-5aeznw-3yzi33-rpgovw\",\"ent\":{\"rid\":\"1JYA4A4W8N1QH1Y0Y9A8\",\"ety\":\"AuthenticationPortal\",\"esty\":\"SignInApplication\"}},\"lastInteraction\":{\"id\":\"vp9gjc-jto1jf-7uuxck-sl0z21\",\"used\":false},\"time\":1758822948127,\"initialized\":true}"
         },
         {
-          "name": "_ym_wv2rf:31639778:0",
-          "value": "1"
+          "name": "csm-bf",
+          "value": "[\"1JYA4A4W8N1QH1Y0Y9A8\",\"7XVTE59QYCSC280B25ED\"]"
         },
         {
-          "name": "firebase:host:envybox-1e1bf.firebaseio.com",
-          "value": "\"s-usc1a-nss-2000.firebaseio.com\""
+          "name": "a-font-class",
+          "value": "a-ember a-ember-modern-display a-ember-modern-text"
         },
         {
-          "name": "_ym_retryReqs",
-          "value": "{}"
+          "name": "csm:adb",
+          "value": "adblk_no"
         },
         {
-          "name": "_ym_wv2rf:69331741:0",
-          "value": "1"
+          "name": "csm-hit",
+          "value": "tb:7XVTE59QYCSC280B25ED+s-1JYA4A4W8N1QH1Y0Y9A8|1758822948206&t:1758822948206&adb:adblk_no"
         },
         {
-          "name": "ws_visit_count",
-          "value": "1"
-        },
-        {
-          "name": "_ym69331741:0_reqNum",
-          "value": "9"
-        },
-        {
-          "name": "_ym31639778:0_reqNum",
-          "value": "11"
-        },
-        {
-          "name": "ws_page_show_count",
-          "value": "1"
-        },
-        {
-          "name": "_ym31639778_lsid",
-          "value": "528306724510"
-        },
-        {
-          "name": "_ym69331741_il",
-          "value": "\"Начать\""
-        },
-        {
-          "name": "_ym_uid",
-          "value": "\"1758644889446153662\""
-        },
-        {
-          "name": "_ym31639778_il",
-          "value": "\"Начать\""
-        },
-        {
-          "name": "ws_visit_id",
-          "value": "33462045465"
-        }
-      ]
-    },
-    {
-      "origin": "https://autofill.yandex.ru",
-      "localStorage": [
-        {
-          "name": "_ym_synced",
-          "value": "{}"
-        },
-        {
-          "name": "_ym69331741_lsid",
-          "value": "1175795134764"
-        },
-        {
-          "name": "_ym_retryReqs",
-          "value": "{}"
-        },
-        {
-          "name": "_ym_wv2rf:69331741:0",
-          "value": "1"
-        },
-        {
-          "name": "_ym_wasSynced",
-          "value": "{\"time\":1758644889070,\"params\":{\"sbp\":{\"a\":\"B04g4vG7Iiytypj32d7N3QJBWFG3ze9PTDD/Oxz5DDrtoAIXJ22yQX2eNVU5AWu2\",\"b\":\"cAYNr4hET1z/nIxM0oIQI3+yJ3DyJipT6cdW9IXBYabx+7wU1v+BIlgOgINrVebU\"},\"eu\":0,\"hittoken\":\"1758644888_edb7c95a6947ac900d08656d1e65a68dcdb618d2537522333a98db54020ebab2\",\"wstoken\":\"10798.cEs-bl4ux3V8hQ2nuRf5zb_58UxF_nMSLzmSohZSWoQ,.Voe2RhxmV4M7fEng6AVRSpfDQic,\",\"ymclid\":\"5587255451754692846\"},\"bkParams\":{}}"
-        },
-        {
-          "name": "_ym69331741:0_reqNum",
-          "value": "2"
-        },
-        {
-          "name": "_ym_uid",
-          "value": "\"1758644889765500947\""
-        },
-        {
-          "name": "_ym3_lsid",
-          "value": "66521746687"
-        },
-        {
-          "name": "_ym3:0_reqNum",
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "origin": "https://www.google.com",
-      "localStorage": [
-        {
-          "name": "rc::a",
-          "value": "eGs0N2Nqa2d0aXE="
-        },
-        {
-          "name": "rc::f",
-          "value": "0aAEeVK33wgITSy27xnvs0O1Rk044D3IiZ9NV6IvxJzb5EcyyIQ4r7z7y40lYEvt9XlRQGqOM"
+          "name": "csa-ctoken-1JYA4A4W8N1QH1Y0Y9A8",
+          "value": "1758826548126"
         }
       ]
     }
