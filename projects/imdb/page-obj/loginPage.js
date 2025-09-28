@@ -1,6 +1,7 @@
 const Base = require('./base');
-const Header = require('../page-obj/header');
+const Header = require('../page-obj/header/header');
 const { login, password } = require('../helpers/env');
+const { test, expect } = require('@playwright/test');
 
 class LoginPage extends Base {
   constructor(page) {
@@ -25,13 +26,15 @@ class LoginPage extends Base {
     return this.page.locator('//div[@class="a-box"]//input[@id="signInSubmit"]');
   }
 
-  async logInUser() {
+  async logInUser(page) {
     await this.navigate('https://www.imdb.com/');
     await this.header.signInButton.click();
     await this.signInWithIMDbButton.click();
     await this.emailInputField.fill(login);
     await this.passwordInputField.fill(password);
     await this.signInButton.click();
+    // await page.pause();
+    await expect(page).toHaveTitle(`IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows`);
   }
 }
 
